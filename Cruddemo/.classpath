@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/mysql-connector-java-8.0.27.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/jsp-api-2.0.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-webmvc-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-web-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-expression-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-core-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-context-support-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-context-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-beans-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-aop-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/Downloads/spring-tx-5.3.12.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/Downloads/springjdbc-constructor-mapper-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/local/ZOHOCORP/dhanush-12514/CRUD Jars/spring-jdbc-5.3.12.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
