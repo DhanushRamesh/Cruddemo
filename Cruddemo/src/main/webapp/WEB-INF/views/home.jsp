@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <a href="userform">Add Employee</a>  
-    <a href="viewuser">View Employees</a>  
+    <a href="userform">Add Users</a>  <br><br>
+    <a href="viewuser">View Users</a>  
 </body>
 </html>

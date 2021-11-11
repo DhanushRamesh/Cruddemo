@@ -20,14 +20,14 @@ public class UserDao {
 	}
 	
 	
-	public int save(UserModel userdetails) {
-		 String sql="insert into crud.users(name,email,username) values('"+ userdetails.getName()+"','"+userdetails.getEmail()+"','"+userdetails.getUsername()+"')";    
+	public int save(UserModel user) {
+		 String sql="insert into crud.users(name,email,username) values('"+ user.getName()+"','"+user.getEmail()+"','"+user.getUsername()+"')";    
 		    return template.update(sql);    
 	}
 
 
-	public int update(UserModel userdetails) {
-		String sql="update crud.users set name='"+userdetails.getName()+"', email='"+userdetails.getEmail()+"',username='"+userdetails.getUsername()+"' where id="+userdetails.getId()+"";    
+	public int update(UserModel user) {
+		String sql="update crud.users set name='"+user.getName()+"', email='"+user.getEmail()+"',username='"+user.getUsername()+"' where id="+user.getId()+"";    
 	    return template.update(sql);    
 
 	}
@@ -51,7 +51,8 @@ public class UserDao {
 	            UserModel u=new UserModel();    
 	            u.setId(rs.getInt(1));    
 	            u.setName(rs.getString(2));      
-	            u.setEmail(rs.getString(3));    
+	            u.setEmail(rs.getString(3));  
+	            u.setUsername(rs.getString(4));
 	            return u;    
 	        }    
 	    }); 
